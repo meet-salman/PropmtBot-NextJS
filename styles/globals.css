@@ -91,6 +91,7 @@
 .black_btn {
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
 }
+
 .purple_btn {
   @apply rounded-full border border-[#6f00df] bg-[#6f00df] py-1.5 px-5 text-white transition-all hover:bg-white hover:text-[#6f00df] text-center text-sm font-inter flex items-center justify-center;
 }
