@@ -94,14 +94,14 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
 
 
       {/* Edit & Delete Actions */}
-      {session?.user.id === post.creator._id && pathName === "/profile" && (
+      {/* {session?.user.id === post.creator._id && pathName === "/profile" && ( */}
 
-        <div className="mt-5 pt-3 flex-center gap-4 border-t border-gray-100 ">
+        <div className="mt-5 pt-3 flex-end gap-4 border-t border-gray-100 ">
 
           {/* Edit Prompt Button */}
           <p
             onClick={handleEdit}
-            className="font-inter text-sm blue_gradient cursor-pointer"
+            className="font-inter text-sm blue_gradient cursor-pointe"
           >
             Edit
           </p>
@@ -116,7 +116,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
 
         </div>
 
-      )}
+      {/* )} */}
 
     </div>
   )
