@@ -91,17 +91,20 @@
 .black_btn {
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
 }
+.purple_btn {
+  @apply rounded-full border border-[#6f00df] bg-[#6f00df] py-1.5 px-5 text-white transition-all hover:bg-white hover:text-[#6f00df] text-center text-sm font-inter flex items-center justify-center;
+}
 
 .outline_btn {
   @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-inter flex items-center justify-center;
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-[#333333] sm:text-6xl;
 }
-
+  
 .orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-[#6f00df] to-[#9068ff] bg-clip-text text-transparent;
 }
 
 .green_gradient {
@@ -109,7 +112,7 @@
 }
 
 .blue_gradient {
-  @apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-blue-600 to-[#6f00df]  to-[#9068ff] bg-clip-text text-transparent;
 }
 
 .desc {
@@ -161,7 +164,7 @@
 
 /* PromptCard Component */
 .prompt_card {
-  @apply flex-1 break-inside-avoid rounded-lg border border-gray-300 bg-white/20 bg-clip-padding p-6 pb-4 backdrop-blur-lg backdrop-filter md:w-[360px] w-full h-fit;
+  @apply flex-1 break-inside-avoid rounded-lg border shadow-2xl shadow-slate-200 border-gray-300 bg-white/20 bg-clip-padding p-6 pb-4 backdrop-blur-lg backdrop-filter md:w-[360px] w-full h-fit;
 }
 
 .flex-center {

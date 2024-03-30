@@ -33,7 +33,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
   }
 
   return (
-    <div className="prompt_card">
+    <div className="prompt_card ">
 
       {/* Profile Area */}
       <div className="flex justify-between items-start gap-5">
