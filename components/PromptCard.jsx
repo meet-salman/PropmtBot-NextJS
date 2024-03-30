@@ -94,7 +94,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
 
 
       {/* Edit & Delete Actions */}
-      {/* {session?.user.id === post.creator._id && pathName === "/profile" && ( */}
+      {session?.user.id === post.creator._id && pathName === "/profile" && (
 
         <div className="mt-5 pt-3 flex-end gap-4 border-t border-gray-100 ">
 
@@ -116,7 +116,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
 
         </div>
 
-      {/* )} */}
+      // {/* )} */}
 
     </div>
   )
