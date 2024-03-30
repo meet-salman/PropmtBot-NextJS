@@ -101,7 +101,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
           {/* Edit Prompt Button */}
           <p
             onClick={handleEdit}
-            className="font-inter text-sm blue_gradient cursor-pointe"
+            className="font-inter text-sm blue_gradient cursor-pointer"
           >
             Edit
           </p>
