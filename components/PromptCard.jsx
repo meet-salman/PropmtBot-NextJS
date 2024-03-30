@@ -116,7 +116,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
 
         </div>
 
-      // {/* )} */}
+      )}
 
     </div>
   )
