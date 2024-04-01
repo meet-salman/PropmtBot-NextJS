@@ -13,10 +13,10 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         {type} and share amazing prompts with the world, and let your imagination run wild with any AI-Powerws platform.
       </p>
 
-      <form onSubmit={handleSubmit} className="mt-10 w-full max-w-2xl flex flex-col gap-7 glassmorphism" >
+      <form onSubmit={handleSubmit} className="form_box" >
 
         <label>
-          <span className="font-satoshi font-semibold text-base text-gray-700"> Your AI Prompt </span>
+          <span className="font-satoshi font-semibold text-base text-gray-300"> Your AI Prompt </span>
 
           <textarea
             value={post.prompt}
@@ -30,7 +30,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 
 
         <label>
-          <span className="font-satoshi font-semibold text-base text-gray-700">
+          <span className="font-satoshi font-semibold text-base text-gray-300">
             Tag <span className="font-normal"> (product, webdevelopment, idea) </span>
           </span>
 
@@ -45,9 +45,9 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         </label>
 
         <div className="flex-end mx-3 mb-5 gap-4">
-          <Link href="/" className="text-gray-500 text-sm"> Cancel </Link>
+          <Link href="/" className="text-gray-300 text-sm"> Cancel </Link>
 
-          <button type="submit" disabled={submitting} className="purple_btn" >
+          <button type="submit" disabled={submitting} className="color_btn" >
             {submitting ? `${type}...` : type}
           </button>
 
